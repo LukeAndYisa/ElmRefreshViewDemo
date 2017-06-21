@@ -186,7 +186,7 @@ public class ElmRefreshView extends View {
         } else {
             food.angle = (System.currentTimeMillis() - food.startTime) * 1.0f / ANIMATOR_DURATION * MOVE_END_ANGLE;
         }
-        if(food.angle > 140) {
+        if(food.angle > MOVE_END_ANGLE) {
             food.angle = 0;
             food.startTime = System.currentTimeMillis();
             if(food.direction == 0)
