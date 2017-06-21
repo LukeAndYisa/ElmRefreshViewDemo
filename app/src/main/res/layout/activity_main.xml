@@ -32,11 +32,13 @@
             android:layout_width="match_parent"
             android:layout_height="120dp" />
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/main_recycler"
-            android:background="#ffffff"
+        <TextView
+            android:background="#fff"
+            android:text="仿饿了么下拉刷新"
+            android:gravity="center"
+            android:textSize="30sp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent" />
 
     </in.srain.cube.views.ptr.PtrFrameLayout>
     

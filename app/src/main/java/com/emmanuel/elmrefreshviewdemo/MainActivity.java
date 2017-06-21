@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onUIRefreshComplete(PtrFrameLayout frame) {
+                refreshView.setStatus(ElmRefreshView.STATUS_STOP);
                 refreshView.setStatus(ElmRefreshView.STATUS_MOVING);
             }
 

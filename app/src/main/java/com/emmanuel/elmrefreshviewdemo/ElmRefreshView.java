@@ -28,7 +28,7 @@ public class ElmRefreshView extends View {
     private final static int foodResource[] = {R.drawable.icon_chicken, R.drawable.icon_flower, R.drawable.icon_orange
                             , R.drawable.icon_ufo, R.drawable.icon_pear};
     private final static int handResource[] = {R.drawable.icon_left, R.drawable.icon_right};
-    private final static int ANIMATOR_DURATION = 1200; //食物抛出动画持续一秒
+    private final static int ANIMATOR_DURATION = 800; //食物抛出动画持续一秒
     private static int MOVE_RADIUS; // 食物移动轨迹为圆环
     private final static int MOVE_END_ANGLE = 120;  //在140度时候 结束
 
