@@ -37,7 +37,7 @@ public class ElmRefreshView extends View {
     public final static int STATUS_MOVING = 2;
     private int status = STATUS_MOVING;
 
-    private final static float HAND_START_ANGLE = 135;
+    private final static float HAND_START_ANGLE = 90;
     private final static float HAND_END_ANGLE = 225;
     private float currentHandAngle = HAND_END_ANGLE;
 
